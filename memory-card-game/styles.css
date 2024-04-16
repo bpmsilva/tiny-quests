@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* font-family: Arial, sans-serif; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    background-color: #b6b6b6;
+    border: 1px solid #000;
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+    color: #b6b6b6;
+}
+
+.selected {
+    background-color: red;
+    /* disable click */
+    pointer-events: none;
+    color: white;
+}
+
+.matched {
+    background-color: white;
+    color: white;
+    /* disable click */
+    pointer-events: none;
+}
